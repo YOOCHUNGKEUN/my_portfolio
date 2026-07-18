@@ -1,4 +1,5 @@
 export interface Stat {
+  category: string;
   value: string;
   label: string;
 }
@@ -29,6 +30,10 @@ export interface Project {
   highlights: string[];
   stack: string[];
   links: { label: string; url: string }[];
+  screenshot?: {
+    src: string;
+    alt: string;
+  };
   architecture?: ArchNode[];
   featured: boolean;
 }

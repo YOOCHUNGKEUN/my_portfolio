@@ -12,8 +12,8 @@ export const PROFILE = {
 } as const;
 
 export const STATS: Stat[] = [
-  { value: '9y 8m', label: '상용 모바일 개발 경력' },
-  { value: '4', label: '식수대장 제품 구성 경험' },
-  { value: '10+', label: '참여한 회사와 서비스' },
-  { value: '4', label: '핀테크·거래소·차량·SaaS 도메인' },
+  { category: 'CAREER', value: '9y 8m', label: '상용 모바일 개발 경력' },
+  { category: 'PRODUCT', value: '4', label: '식수대장 제품 구성 경험' },
+  { category: 'PROJECTS', value: '10+', label: '참여한 회사와 서비스' },
+  { category: 'DOMAIN', value: '4', label: '핀테크·거래소·차량·SaaS 도메인' },
 ];

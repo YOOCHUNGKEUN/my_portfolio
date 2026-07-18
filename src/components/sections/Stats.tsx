@@ -17,7 +17,9 @@ export function Stats() {
                     : 'border-white/10'
             }`}
           >
-            <p className="font-mono text-[11px] font-semibold text-steel">경험</p>
+            <p className="font-mono text-[11px] font-semibold uppercase tracking-[0.14em] text-steel">
+              {stat.category}
+            </p>
             <p className="mt-3 font-mono text-3xl font-bold text-ink">{stat.value}</p>
             <p className="mt-2 text-sm text-steel">{stat.label}</p>
           </div>
