@@ -13,7 +13,8 @@ export function Contact() {
         </p>
         <p className="mt-5 max-w-3xl text-sm leading-7 text-white/58">
           업무 및 일부 개인 프로젝트는 비공개 저장소로 관리하고 있어, 공개 가능한 구현 과정과
-          구조 중심으로 포트폴리오와 Velog에 정리했습니다.
+          구조 중심으로 포트폴리오와 Velog에 정리했습니다. 필요 시 코드 구조 설명이나 일부
+          샘플은 별도로 공유드릴 수 있습니다.
         </p>
         <a
           href={LINKS.email}
@@ -22,14 +23,6 @@ export function Contact() {
           {PROFILE.email}
         </a>
         <div className="mt-8 flex flex-wrap gap-3">
-          <a
-            href={LINKS.github}
-            target="_blank"
-            rel="noreferrer"
-            className="rounded-lg border border-white/20 px-4 py-2 font-mono text-xs font-semibold transition hover:border-white"
-          >
-            GitHub 공개 코드
-          </a>
           <a
             href={LINKS.velog}
             target="_blank"

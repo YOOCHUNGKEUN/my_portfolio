@@ -10,9 +10,6 @@ export function Footer() {
           <a className="hover:text-indigo" href={LINKS.email}>
             Email
           </a>
-          <a className="hover:text-indigo" href={LINKS.github} target="_blank" rel="noreferrer">
-            GitHub
-          </a>
           <a className="hover:text-indigo" href={LINKS.velog} target="_blank" rel="noreferrer">
             Velog
           </a>

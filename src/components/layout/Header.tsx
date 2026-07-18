@@ -1,4 +1,3 @@
-import { LINKS } from '@/constants/routes';
 import { PROFILE } from '@/constants/profile';
 import { useActiveSection } from '@/hooks/useActiveSection';
 
@@ -31,14 +30,6 @@ export function Header() {
               {item.label}
             </a>
           ))}
-          <a
-            href={LINKS.github}
-            target="_blank"
-            rel="noreferrer"
-            className="rounded-full border border-ink px-4 py-2 font-mono text-xs font-semibold text-ink transition hover:bg-ink hover:text-white"
-          >
-            GitHub
-          </a>
         </div>
       </nav>
     </header>
