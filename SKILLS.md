@@ -8,6 +8,7 @@
 - 사용 시점: 기존 React/Vite 포트폴리오의 화면 구조와 디자인을 변경하고, GitHub Pages에 배포 가능한 정적 웹사이트 형태를 유지해야 할 때 사용했습니다.
 - 사용 환경: `my_portfolio` 폴더의 React + TypeScript + Vite + TailwindCSS 프로젝트에서 사용했습니다.
 - 이번 작업 적용 내용: 참고 이미지의 다크 grid 배경, 큰 Hero 타이포, 제품형 카드, 대시보드 프리뷰, 중앙형 경력 타임라인을 현재 포트폴리오 구조에 맞게 반영했습니다.
+- 스크린샷 반영 내용: 프로젝트별 이미지를 webp로 최적화해 `public/assets/screenshots/`에 정리하고, GitHub Pages base path에 맞춰 카드 이미지로 표시했습니다.
 
 ## 관련 기술 스택
 

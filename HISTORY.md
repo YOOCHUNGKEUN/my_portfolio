@@ -5,6 +5,7 @@
 - 포트폴리오 전체 UI를 다크 제품형 포트폴리오 디자인으로 개편
 - Hero, Stats, Featured, Projects, Career, Contact 섹션의 레이아웃과 시각 계층 개선
 - 식수대장 섹션에 대시보드 프리뷰 스타일 비주얼 추가
+- 뚝딱위치, 풀고켜고, 패스박스, 응급맘, BlogDraftAI, aiFallDownDetector, 단어팡 스크린샷 프로젝트 카드 반영
 - README 및 SKILLS 문서 갱신
 
 ## 2026-07-18

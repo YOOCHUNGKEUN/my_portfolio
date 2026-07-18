@@ -30,6 +30,16 @@ export function Projects() {
                     : ''
             }
           >
+            {project.screenshot && (
+              <div className="mb-6 overflow-hidden rounded-lg border border-white/10 bg-[#080B12]">
+                <img
+                  src={`${import.meta.env.BASE_URL}${project.screenshot.src}`}
+                  alt={project.screenshot.alt}
+                  className="h-56 w-full object-cover object-top transition duration-500 hover:scale-[1.03]"
+                  loading="lazy"
+                />
+              </div>
+            )}
             <div className="flex flex-wrap items-start justify-between gap-3">
               <div>
                 <h3 className="text-xl font-bold text-ink">{project.name}</h3>
@@ -40,7 +50,7 @@ export function Projects() {
               </Badge>
             </div>
             <p className="mt-5 leading-7 text-steel">{project.description}</p>
-            {index === 0 && (
+            {index === 0 && !project.screenshot && (
               <div className="mt-6 overflow-hidden rounded-lg border border-white/10 bg-[#0A0E17] p-4">
                 <div className="grid gap-3 md:grid-cols-[0.9fr_1.1fr]">
                   <div className="rounded-md bg-white/[0.04] p-4">
