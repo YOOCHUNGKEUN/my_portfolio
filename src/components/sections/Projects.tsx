@@ -47,14 +47,22 @@ export function Projects() {
             className={index === 0 ? 'lg:col-span-2' : ''}
           >
             {project.screenshot && (
-              <div className="mb-6 overflow-hidden rounded-lg border border-white/10 bg-[#080B12]">
+              <button
+                type="button"
+                onClick={() => setSelectedProject(project)}
+                className="group mb-6 block w-full cursor-zoom-in overflow-hidden rounded-lg border border-white/10 bg-[#080B12] text-left focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-live"
+                aria-label={`${project.name} 스크린샷 크게 보기`}
+              >
                 <img
                   src={`${import.meta.env.BASE_URL}${project.screenshot.src}`}
                   alt={project.screenshot.alt}
-                  className="h-56 w-full object-cover object-top transition duration-500 hover:scale-[1.03]"
+                  className="h-56 w-full object-cover object-top transition duration-500 group-hover:scale-[1.03]"
                   loading="lazy"
                 />
-              </div>
+                <span className="block border-t border-white/10 bg-white/[0.03] px-3 py-2 font-mono text-[10px] uppercase tracking-[0.14em] text-steel">
+                  Click to enlarge
+                </span>
+              </button>
             )}
             <div className="flex flex-wrap items-start justify-between gap-3">
               <div>
