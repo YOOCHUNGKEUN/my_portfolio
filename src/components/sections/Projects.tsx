@@ -7,7 +7,7 @@ import { Chip } from '@/components/ui/Chip';
 const projects = PROJECTS.filter((project) => !project.featured);
 
 const statusText = {
-  live: '운영 중',
+  live: '검증 중',
   released: '출시',
   submitted: '심사 제출',
   completed: '완료',

@@ -5,12 +5,12 @@ export const PROJECTS: Project[] = [
   {
     id: 'siksudaejang',
     name: '식수대장',
-    tagline: '식당과 회사를 잇는 QR 기반 B2B 식수 관리 SaaS',
+    tagline: '식당과 회사를 잇는 QR 기반 B2B 식수 관리 SaaS 구조',
     status: 'live',
     description:
-      '기획, 앱 2종, 웹 어드민, API 서버, DB, 배포까지 혼자 만든 실서비스입니다. 파트너 앱으로 QR을 검표하고, 본사와 담당자가 식수 데이터를 관리합니다.',
+      '기획, 앱 2종, 웹 어드민, API 서버, DB, 배포까지 이어지는 제품 구조를 주도적으로 설계하고 검증 중인 서비스입니다. 파트너 앱으로 QR을 검표하고, 본사와 담당자가 식수 데이터를 관리합니다.',
     highlights: [
-      'Flutter 사용자 앱 + 파트너 앱, React 어드민, FastAPI 서버까지 총 4개 제품 단독 구축',
+      'Flutter 사용자 앱 + 파트너 앱, React 어드민, FastAPI 서버까지 총 4개 제품 구조 구축',
       'QR 인증 기반 실시간 자동 식수 기록으로 현장 수기 업무 시간을 50% 이상 단축',
       'BLoC, Clean Architecture, Docker 배포를 적용해 운영 가능한 구조로 재구축',
     ],
@@ -38,7 +38,7 @@ export const PROJECTS: Project[] = [
     highlights: [
       '신규 서비스 Android 아키텍처 설계',
       'Google Play 론칭 프로세스 대응',
-      '운영 중 CS 자동화를 위한 Telegram Bot API 연동',
+      'CS 자동화를 위한 Telegram Bot API 연동',
     ],
     stack: ['Kotlin', 'Android', 'MVVM', 'LiveData', 'Telegram Bot API'],
     links: [{ label: 'Portfolio Series', url: LINKS.velog }],

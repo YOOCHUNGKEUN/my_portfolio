@@ -9,10 +9,10 @@ export const CAREERS: Career[] = [
     domain: 'saas',
     summary: 'QR 기반 기업 식수 관리 SaaS를 1인 풀스택으로 설계, 개발, 운영했습니다.',
     highlights: [
-      'Flutter 사용자 앱과 파트너 앱, React 어드민 웹, FastAPI/MariaDB 백엔드를 단독 구축',
+      'Flutter 사용자 앱과 파트너 앱, React 어드민 웹, FastAPI/MariaDB 백엔드 구조를 주도적으로 구축',
       'QR 인증 기반 실시간 자동 식수 기록으로 수기 체크 대비 처리 시간을 50% 이상 단축',
       'BLoC와 Clean Architecture를 도입해 UI와 비즈니스 로직을 분리하고 개발 효율을 개선',
-      'Docker 컨테이너 기반 배포 구조를 마련해 운영 중 버그 패치 안정성을 확보',
+      'Docker 컨테이너 기반 배포 구조를 마련해 검증과 수정 과정의 안정성을 확보',
     ],
     stack: ['Flutter', 'React', 'TypeScript', 'FastAPI', 'MariaDB', 'Docker', 'BLoC'],
   },

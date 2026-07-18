@@ -12,7 +12,7 @@ export function Featured() {
       <div className="grid gap-8 lg:grid-cols-[1fr_0.95fr]">
         <div className="rounded-lg border border-line bg-panel p-6 md:p-8">
           <div className="flex flex-wrap items-center gap-3">
-            <Badge variant="live">운영 중</Badge>
+            <Badge variant="live">검증 중</Badge>
             <p className="font-mono text-xs text-steel">{featured.tagline}</p>
           </div>
           <p className="mt-6 text-lg leading-8 text-steel">{featured.description}</p>

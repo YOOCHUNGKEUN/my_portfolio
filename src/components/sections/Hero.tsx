@@ -17,7 +17,7 @@ export function Hero() {
             href="#featured"
             className="inline-flex justify-center rounded-lg bg-ink px-5 py-3 text-sm font-semibold text-white transition hover:bg-indigo"
           >
-            운영 중인 서비스 보기
+            대표 서비스 구조 보기
           </a>
           <a
             href={LINKS.velog}
