@@ -13,6 +13,7 @@ export const CAREERS: Career[] = [
       'QR 인증 기반 실시간 자동 식수 기록으로 수기 체크 대비 처리 시간을 50% 이상 단축',
       'BLoC와 Clean Architecture를 도입해 UI와 비즈니스 로직을 분리하고 개발 효율을 개선',
       'Docker 컨테이너 기반 배포 구조를 마련해 검증과 수정 과정의 안정성을 확보',
+      '계약 종료 이후에도 기능 수정과 테스트를 개인적으로 이어가고 있음',  // 추가
     ],
     stack: ['Flutter', 'React', 'TypeScript', 'FastAPI', 'MariaDB', 'Docker', 'BLoC'],
   },
