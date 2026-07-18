@@ -6,6 +6,8 @@
 - Hero, Stats, Featured, Projects, Career, Contact 섹션의 레이아웃과 시각 계층 개선
 - 식수대장 섹션에 대시보드 프리뷰 스타일 비주얼 추가
 - 뚝딱위치, 풀고켜고, 패스박스, 응급맘, BlogDraftAI, aiFallDownDetector, 단어팡 스크린샷 프로젝트 카드 반영
+- 프로젝트 카드 색상 톤을 통일하고 스크린샷 확대 모달 추가
+- Stats 카드의 반복 라벨을 의미 있는 카테고리로 변경
 - README 및 SKILLS 문서 갱신
 
 ## 2026-07-18

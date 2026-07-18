@@ -1,4 +1,5 @@
 export interface Stat {
+  category: string;
   value: string;
   label: string;
 }
