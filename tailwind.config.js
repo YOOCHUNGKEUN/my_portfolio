@@ -4,20 +4,24 @@ export default {
   theme: {
     extend: {
       colors: {
-        ink: '#151A23',
-        steel: '#46536A',
-        line: '#DDE3EC',
-        paper: '#FAFBFD',
-        panel: '#FFFFFF',
-        indigo: '#3D5AFE',
-        live: '#0BA360',
+        ink: '#F5F8FF',
+        steel: '#9DA8BD',
+        line: '#293145',
+        paper: '#0C101A',
+        panel: '#151A27',
+        indigo: '#A8B7FF',
+        live: '#43E6A5',
+        mint: '#42E8D4',
+        rose: '#F4A3A8',
+        amber: '#F1C27B',
       },
       fontFamily: {
         sans: ['Pretendard Variable', 'Pretendard', 'sans-serif'],
         mono: ['JetBrains Mono', 'monospace'],
       },
       boxShadow: {
-        lift: '0 18px 45px rgba(21, 26, 35, 0.08)',
+        lift: '0 24px 70px rgba(0, 0, 0, 0.38)',
+        glow: '0 0 70px rgba(66, 232, 212, 0.16)',
       },
     },
   },

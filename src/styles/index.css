@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  color: #151a23;
-  background: #fafbfd;
+  color: #f5f8ff;
+  background: #0c101a;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -24,15 +24,23 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background:
-    linear-gradient(rgba(221, 227, 236, 0.55) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(221, 227, 236, 0.55) 1px, transparent 1px),
-    #fafbfd;
-  background-size: 48px 48px;
+    radial-gradient(circle at 75% 8%, rgba(168, 183, 255, 0.12), transparent 34rem),
+    radial-gradient(circle at 28% 45%, rgba(66, 232, 212, 0.08), transparent 32rem),
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    #0c101a;
+  background-size: auto, auto, 42px 42px, 42px 42px, auto;
+  color: #f5f8ff;
 }
 
 ::selection {
-  color: #ffffff;
-  background: #3d5afe;
+  color: #0c101a;
+  background: #42e8d4;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media (prefers-reduced-motion: reduce) {

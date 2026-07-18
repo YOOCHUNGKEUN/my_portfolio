@@ -15,13 +15,13 @@ export function AICapability() {
             검증해 본 경험이 있습니다. RAG 검색 품질 저하를 임베딩 문제로 좁히고, 모델
             파인튜닝과 Judge LLM 검증 흐름까지 직접 다뤘습니다.
           </p>
-          <p className="mt-6 border-l-2 border-indigo pl-4 font-semibold leading-7 text-ink">
+          <p className="mt-6 border-l-2 border-live pl-4 font-semibold leading-7 text-ink">
             앱에 AI를 도입할 때 생기는 품질, 비용, 아키텍처 문제를 실무 언어로 풀어낼 수 있는
             모바일 개발자입니다.
           </p>
         </Card>
         <Card>
-          <h3 className="font-mono text-sm font-bold uppercase tracking-[0.2em] text-indigo">
+          <h3 className="font-mono text-sm font-bold uppercase tracking-[0.2em] text-live">
             AI Stack
           </h3>
           <div className="mt-6 flex flex-wrap gap-2">
