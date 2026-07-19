@@ -1,5 +1,15 @@
 export const LINKS = {
-  velog: 'https://velog.io/@tosoon3535/series/Portfolio',
+  // velog: 'https://velog.io/@tosoon3535/series/Portfolio',
+  velog_ttuktak: 'https://velog.io/@tosoon3535/%EB%9A%9D%EB%94%B1%EC%9C%84%EC%B9%98',
+  velog_pulgo: 'https://velog.io/@tosoon3535/%ED%92%80%EA%B3%A0%EC%BC%9C%EA%B3%A0',
+  velog_blogdraft: 'https://velog.io/@tosoon3535/BlogDraftAI',
+  velog_siksu_m: 'https://velog.io/@tosoon3535/%EC%8B%9D%EC%88%98%EB%8C%80%EC%9E%A5-%EB%AA%A8%EB%B0%94%EC%9D%BC',
+  velog_siksu_m_partners: 'https://velog.io/@tosoon3535/%EC%8B%9D%EC%88%98%EB%8C%80%EC%9E%A5%ED%8C%8C%ED%8A%B8%EB%84%88%EC%8A%A4-%EB%AA%A8%EB%B0%94%EC%9D%BC',
+  velog_siksu_web: 'https://velog.io/@tosoon3535/%EC%8B%9D%EC%88%98%EB%8C%80%EC%9E%A5-%EC%9B%B9-%EA%B4%80%EB%A6%AC%EC%9E%90-%ED%8E%98%EC%9D%B4%EC%A7%80',
+  velog_passbox: 'https://velog.io/@tosoon3535/%ED%8C%A8%EC%8A%A4%EB%B0%95%EC%8A%A4',
+  velog_wordpang: 'https://velog.io/@tosoon3535/%EB%8B%A8%EC%96%B4%ED%8C%A1',
+  velog_idoc: 'https://velog.io/@tosoon3535/%EC%95%84%EC%9D%B4%EB%8B%A5IDOC',
+  velog_aifalldown: 'https://velog.io/@tosoon3535/AiFallDownDetector',
   siksu: 'https://admin.siksudaejang.co.kr/admin/login',
   email: 'mailto:tosoon3535@gmail.com',
 } as const;

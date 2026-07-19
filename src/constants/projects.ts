@@ -17,7 +17,7 @@ export const PROJECTS: Project[] = [
     stack: ['Flutter', 'FastAPI', 'React', 'TypeScript', 'MariaDB', 'Docker', 'BLoC'],
     links: [
       { label: 'Live', url: LINKS.siksu },
-      { label: 'Portfolio Series', url: LINKS.velog },
+      { label: 'velog link', url: LINKS.velog_siksu_web },
     ],
     architecture: [
       { label: 'Flutter 사용자 앱', detail: 'Flutter · BLoC · Clean Architecture', mine: true },
@@ -45,7 +45,7 @@ export const PROJECTS: Project[] = [
       src: 'assets/screenshots/ttukttak_01.webp',
       alt: '뚝딱위치 위치 전송 앱 주요 화면',
     },
-    links: [{ label: 'Portfolio Series', url: LINKS.velog }],
+    links: [{ label: 'velog link', url: LINKS.velog_ttuktak }],
     featured: false,
   },
   {
@@ -65,7 +65,7 @@ export const PROJECTS: Project[] = [
       src: 'assets/screenshots/pulgo_01.webp',
       alt: '풀고켜고 앱 사용 제어 및 부모 설정 화면',
     },
-    links: [{ label: 'Portfolio Series', url: LINKS.velog }],
+    links: [{ label: 'velog link', url: LINKS.velog_pulgo }],
     featured: false,
   },
   {
@@ -85,7 +85,7 @@ export const PROJECTS: Project[] = [
       src: 'assets/screenshots/passbox_01.webp',
       alt: '패스박스 비밀번호 관리 앱 주요 화면',
     },
-    links: [{ label: 'Portfolio Series', url: LINKS.velog }],
+    links: [{ label: 'velog link', url: LINKS.velog_passbox }],
     featured: false,
   },
   {
@@ -105,7 +105,7 @@ export const PROJECTS: Project[] = [
       src: 'assets/screenshots/emergencymom_01.webp',
       alt: '응급맘 소아 응급 안내 앱 주요 화면',
     },
-    links: [{ label: 'Portfolio Series', url: LINKS.velog }],
+    links: [{ label: 'velog link', url: LINKS.velog_idoc }],
     featured: false,
   },
   {
@@ -125,7 +125,7 @@ export const PROJECTS: Project[] = [
       src: 'assets/screenshots/blogdraftai_01.webp',
       alt: 'BlogDraftAI GitHub 코드 기반 블로그 초안 생성 화면',
     },
-    links: [{ label: 'Portfolio Series', url: LINKS.velog }],
+    links: [{ label: 'velog link', url: LINKS.velog_blogdraft }],
     featured: false,
   },
   {
@@ -145,7 +145,7 @@ export const PROJECTS: Project[] = [
       src: 'assets/screenshots/aifalldown_01.webp',
       alt: 'aiFallDownDetector 정상 자세와 낙상 감지 화면',
     },
-    links: [{ label: 'Portfolio Series', url: LINKS.velog }],
+    links: [{ label: 'velog link', url: LINKS.velog_aifalldown }],
     featured: false,
   },
   {
@@ -165,7 +165,7 @@ export const PROJECTS: Project[] = [
       src: 'assets/screenshots/wordpang_main.webp',
       alt: '단어팡 단어 조합 게임과 도감 화면',
     },
-    links: [{ label: 'Portfolio Series', url: LINKS.velog }],
+    links: [{ label: 'velog link', url: LINKS.velog_wordpang }],
     featured: false,
   },
 ];
