@@ -4,12 +4,12 @@ import { Section } from '@/components/layout/Section';
 
 export function Contact() {
   return (
-    <Section id="contact" eyebrow="contact" title="함께 일할 팀을 찾고 있습니다">
+    <Section id="contact" eyebrow="contact" title="제품의 빈틈을 구조로 메우는 개발자입니다">
       <div className="rounded-2xl border border-white/10 bg-gradient-to-br from-panel via-[#111827] to-[#0A0E17] p-8 text-white shadow-glow md:p-10">
         <p className="max-w-3xl text-lg leading-8 text-white/78">
-          Android/Kotlin 깊이와 Flutter, FastAPI, React, AI/LLM 확장 경험을 함께 가져갈 수 있는
-          역할을 찾고 있습니다. 서비스 전체를 조망하며, 필요한 빈칸을 주도적으로 메우는 개발자로
-          기여하겠습니다.
+          Android/Kotlin 기반 모바일 경험을 바탕으로 Flutter, FastAPI, React, AI/LLM까지 필요한
+          영역을 빠르게 연결해 왔습니다. 맡은 화면만 구현하는 개발자가 아니라, 앱과 서버,
+          운영 흐름이 함께 맞물리는 구조를 고민합니다.
         </p>
         <p className="mt-5 max-w-3xl text-sm leading-7 text-white/58">
           업무 및 일부 개인 프로젝트는 비공개 저장소로 관리하고 있어, 공개 가능한 구현 과정과
