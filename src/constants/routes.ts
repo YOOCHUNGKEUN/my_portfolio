@@ -1,5 +1,5 @@
 export const LINKS = {
-  // velog: 'https://velog.io/@tosoon3535/series/Portfolio',
+  velog: 'https://velog.io/@tosoon3535/series/Portfolio',
   velog_ttuktak: 'https://velog.io/@tosoon3535/%EB%9A%9D%EB%94%B1%EC%9C%84%EC%B9%98',
   velog_pulgo: 'https://velog.io/@tosoon3535/%ED%92%80%EA%B3%A0%EC%BC%9C%EA%B3%A0',
   velog_blogdraft: 'https://velog.io/@tosoon3535/BlogDraftAI',

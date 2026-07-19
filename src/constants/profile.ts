@@ -13,7 +13,5 @@ export const PROFILE = {
 
 export const STATS: Stat[] = [
   { category: 'CAREER', value: '9y 8m', label: '상용 모바일 개발 경력' },
-  { category: 'PRODUCT', value: '4', label: '식수대장 제품 구성 경험' },
-  { category: 'PROJECTS', value: '10+', label: '참여한 회사와 서비스' },
-  { category: 'DOMAIN', value: '4', label: '핀테크·거래소·차량·SaaS 도메인' },
+  { category: 'PROJECTS', value: '10+', label: '모바일·백엔드·AI를 연결한 실전 프로젝트' },
 ];
