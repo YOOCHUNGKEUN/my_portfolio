@@ -178,7 +178,7 @@ export const PROJECTS: Project[] = [
     highlights: [
       'React Native 기반 모바일 화면과 내비게이션 흐름 구성',
       '알림 목록, 상세 확인, 상태 변경을 고려한 앱 구조 설계',
-      'API 연동과 데이터 갱신 흐름을 분리해 유지보수 가능한 구조로 정리',
+      'SQLite 저장과 지오펜싱 후처리를 분리해 위치 알림 저장 속도 개선'
     ],
     stack: ['React Native', 'TypeScript', 'Mobile UX', 'API Integration', 'State Management'],
     links: [{ label: 'velog link', url: LINKS.velog_alimter_mobile }],
