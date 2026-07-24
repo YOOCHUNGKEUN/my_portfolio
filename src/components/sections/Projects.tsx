@@ -42,10 +42,7 @@ export function Projects() {
     <Section id="projects" eyebrow="selected projects" title="앱을 넘어서 서비스 구조까지 다룬 프로젝트">
       <div className="grid gap-5 lg:grid-cols-3">
         {projects.map((project, index) => (
-          <Card
-            key={project.id}
-            className={index === 0 ? 'lg:col-span-2' : ''}
-          >
+          <Card key={project.id}>
             {project.screenshot && (
               <button
                 type="button"
