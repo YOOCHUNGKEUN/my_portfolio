@@ -9,6 +9,7 @@ export const LINKS = {
   velog_passbox: 'https://velog.io/@tosoon3535/%ED%8C%A8%EC%8A%A4%EB%B0%95%EC%8A%A4',
   velog_wordpang: 'https://velog.io/@tosoon3535/%EB%8B%A8%EC%96%B4%ED%8C%A1',
   velog_idoc: 'https://velog.io/@tosoon3535/%EC%95%84%EC%9D%B4%EB%8B%A5IDOC',
+  velog_ai_emergencymom: 'https://velog.io/@tosoon3535/%EC%95%84%EC%9D%B4%EB%8B%A5IDOC',
   velog_aifalldown: 'https://velog.io/@tosoon3535/AiFallDownDetector',
   velog_alimter_mobile: 'https://velog.io/@tosoon3535/%EC%95%8C%EB%A6%BC%ED%84%B0mobile-React-Native',
   siksu: 'https://admin.siksudaejang.co.kr/admin/login',
