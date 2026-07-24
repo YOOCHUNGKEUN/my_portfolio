@@ -168,4 +168,20 @@ export const PROJECTS: Project[] = [
     links: [{ label: 'velog link', url: LINKS.velog_wordpang }],
     featured: false,
   },
+  {
+    id: 'alimter-mobile',
+    name: '알림터 Mobile',
+    tagline: 'React Native 기반 알림 서비스 모바일 앱',
+    status: 'completed',
+    description:
+      '공지와 알림을 모바일 환경에서 확인하고 관리할 수 있도록 React Native로 구성한 모바일 앱 프로젝트입니다. 화면 흐름, 상태 관리, API 연동을 실제 앱 구조 기준으로 정리했습니다.',
+    highlights: [
+      'React Native 기반 모바일 화면과 내비게이션 흐름 구성',
+      '알림 목록, 상세 확인, 상태 변경을 고려한 앱 구조 설계',
+      'API 연동과 데이터 갱신 흐름을 분리해 유지보수 가능한 구조로 정리',
+    ],
+    stack: ['React Native', 'TypeScript', 'Mobile UX', 'API Integration', 'State Management'],
+    links: [{ label: 'velog link', url: LINKS.velog_alimter_mobile }],
+    featured: false,
+  },
 ];
