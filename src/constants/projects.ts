@@ -109,22 +109,6 @@ export const PROJECTS: Project[] = [
     featured: false,
   },
   {
-    id: 'ai-emergencymom',
-    name: 'Ai응급맘',
-    tagline: 'AI 기반 소아 응급 상담 및 처치 안내 앱',
-    status: 'completed',
-    description:
-      '아이의 증상 정보를 바탕으로 응급 대응 방향을 정리하고, 보호자가 빠르게 다음 행동을 판단할 수 있도록 구성한 AI 응급 안내 프로젝트입니다.',
-    highlights: [
-      '증상 입력 흐름과 AI 상담 응답 구조 구성',
-      '응급 처치 가이드와 주변 의료 정보 확인 흐름 설계',
-      '아이 프로필과 상담 이력을 바탕으로 반복 사용 가능한 UX 정리',
-    ],
-    stack: ['Android', 'Kotlin', 'AI', 'Healthcare UX', 'Location'],
-    links: [{ label: 'velog link', url: LINKS.velog_ai_emergencymom }],
-    featured: false,
-  },
-  {
     id: 'blogdraftai',
     name: 'BlogDraftAI',
     tagline: 'GitHub 코드를 기술 블로그 초안으로 정리하는 AI 도구',
